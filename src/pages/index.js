@@ -51,12 +51,24 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
+            <h2
+              className="inline-block w-full text-primary dark:text-primaryDark font-semibold text-2xl mb-2
+              xl:text-xl lg:text-center md:text-xl sm:text-lg"
+            >
+              Hi, I&apos;m
+            </h2>
             <h1
-              className="inline-block w-full text-dark font-bold capitalize text-6xl dark:text-light
+              className="inline-block w-full text-dark font-bold text-6xl dark:text-light
               xl:text-5xl lg:text-center lg:text-6xl md:text-5xl sm:text-3xl"
             >
-              Turning Vision Into Reality With Code & AI.
+              Sanjay Deshmukh
             </h1>
+            <h3
+              className="inline-block w-full text-dark/70 dark:text-light/70 font-medium text-2xl mt-2
+              xl:text-xl lg:text-center md:text-xl sm:text-lg"
+            >
+              AI/ML Engineer · Software Developer · Researcher
+            </h3>
 
             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
               As a passionate AI/ML Engineer and Software Developer, I specialize in building
